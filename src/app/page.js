@@ -6,9 +6,10 @@ import SectionHeaders from "@/components/layout/SectionHeader"
 export default function Home() {
   return (
     <>
-    <Header />
+
     <Hero />
     <HomeMenu />
+
     <section className="text-center my-16">
       <SectionHeaders
       subHeader={'Our Story'}
@@ -22,6 +23,7 @@ export default function Home() {
         </p>
       </div>
     </section>
+
     <section className="text-center my-8">
       <SectionHeaders subHeader={'Don\'t hesitate'}
       mainHeader={'Contact us'}/>
@@ -29,9 +31,8 @@ export default function Home() {
         <a className="text-4xl underline text-gray-500" href="tel:+123456789">+46 123 456 789</a>
       </div>
     </section>
-    <footer className="border-t p-8 text-center mt-16">
-      &copy; 2024 All rights reserved
-    </footer>
+
+
     </>
   )
 }
